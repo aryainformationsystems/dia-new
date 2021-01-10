@@ -1,32 +1,26 @@
-.container {
-  display: flex;
+mat-drawer-container {
   height: 100vh;
-  flex-direction: column;
 }
+mat-drawer {
+  background-color: #21295C;
+  width: 250px;
+}
+
+mat-drawer a {
+  color: #ffffff;
+}
+
+.example-spacer {
+  flex: 1;
+}
+
+mat-icon.nav {
+  margin-right: 0.5em;
+}
+
 .toolbar-container {
   align-self: start;
   width: 100%;
-}
-.footer {
-  align-self: start;
-  width: 100%;
-  height: 3em;
-  line-height: 3em;
-  text-align: center;
-}
-.example-container {
-  align-self: stretch;
-  width: 100%;
-  flex-grow: 1;
-}
-.example-spacer {
-  flex: 1 1 auto;
-}
-
-.example-sidenav {
-  width: 250px;
-  background-color: #21295C;
-  font-size: 1em;
 }
 
 .example-sidenav a {
@@ -135,4 +129,8 @@ mat-card.color5 {
 
 mat-icon.nav {
   margin-right: 0.5em;
+}
+
+.content-area {
+  padding: 20px;
 }
