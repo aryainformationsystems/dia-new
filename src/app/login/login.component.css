@@ -5,3 +5,38 @@
 mat-form-field {
   width: 100%;
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: row;
+}
+
+.image-div {
+  flex-grow: 1;
+  background-image: url('/assets/images/login-bg.png');
+  background-size: cover;
+  background-position: right;
+}
+
+.form-div {
+  padding: 0 10vw;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+}
+
+.form-inner {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .image-div {
+    display: none;
+  }
+  .form-div {
+    width: 100vw;
+  }
+}

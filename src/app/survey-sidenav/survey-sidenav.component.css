@@ -1,0 +1,28 @@
+.nav-home {
+  color: #d9fff8 !important;
+}
+
+.nav-dashboard,
+a.nav-dashboard {
+  color: #446df6 !important;
+}
+
+.nav-organization {
+  color: #ffd639 !important;
+}
+
+.nav-survey {
+  color: #cc998d !important;
+}
+
+.nav-report {
+  color: #d1603d !important;
+}
+
+.nav-settings {
+  color: #b5ef8a !important;
+}
+
+mat-icon.nav {
+  margin-right: 0.5em;
+}

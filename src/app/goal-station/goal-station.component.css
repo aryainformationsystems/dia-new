@@ -2,7 +2,7 @@ mat-drawer-container {
   height: 100vh;
 }
 mat-drawer {
-  background-color: #21295C;
+  background-color: #21295c;
   width: 250px;
 }
 
@@ -12,6 +12,19 @@ mat-drawer a {
 
 .example-spacer {
   flex: 1;
+}
+
+mat-icon.nav {
+  margin-right: 0.5em;
+}
+
+.toolbar-container {
+  align-self: start;
+  width: 100%;
+}
+
+.example-sidenav a {
+  color: #ffffff;
 }
 
 mat-icon.nav {

@@ -3,26 +3,7 @@
     <div style="padding: 1em 1em 1em 1em; font-size: 2em; color: #ffffff">
       Dia
     </div>
-    <mat-nav-list>
-      <a mat-list-item href="landing"
-        ><mat-icon class="nav">home</mat-icon>Home</a
-      >
-      <a mat-list-item href="#"
-        ><mat-icon class="nav">dashboard</mat-icon>Dashboard</a
-      >
-      <a mat-list-item href="#"
-        ><mat-icon class="nav">domain</mat-icon> Organizations</a
-      >
-      <a mat-list-item href="#"
-        ><mat-icon class="nav">question_answer</mat-icon> Goals</a
-      >
-      <a mat-list-item href="#"
-        ><mat-icon class="nav"> pie_chart</mat-icon> Reports</a
-      >
-      <a mat-list-item href="#"
-        ><mat-icon class="nav">settings</mat-icon> Settings</a
-      >
-    </mat-nav-list>
+    <app-goal-sidenav></app-goal-sidenav>
   </mat-drawer>
   <div class="main-content">
     <mat-toolbar>
@@ -42,7 +23,7 @@
       </button>
     </mat-toolbar>
     <div class="content-area">
-      Hello World!
+      <router-outlet></router-outlet>
     </div>
   </div>
 </mat-drawer-container>

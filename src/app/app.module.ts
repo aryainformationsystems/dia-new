@@ -29,6 +29,16 @@ import { GoalStationComponent } from './goal-station/goal-station.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { EnvProviderService } from './services/env-provider.service';
 import { TokenInterceptor } from './classes/token-interceptor';
+import { SurveyDashboardComponent } from './survey-dashboard/survey-dashboard.component';
+import { GoalDashboardComponent } from './goal-dashboard/goal-dashboard.component';
+import { SurveySidenavComponent } from './survey-sidenav/survey-sidenav.component';
+import { GoalSidenavComponent } from './goal-sidenav/goal-sidenav.component';
+import { OrganizationsComponent } from './organizations/organizations.component';
+import { GoalsComponent } from './goals/goals.component';
+import { SurveysComponent } from './surveys/surveys.component';
+import { SurveyReportsComponent } from './survey-reports/survey-reports.component';
+import { GoalReportsComponent } from './goal-reports/goal-reports.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +47,17 @@ import { TokenInterceptor } from './classes/token-interceptor';
     LandingComponent,
     ForgotPasswordComponent,
     SurveyStationComponent,
-    GoalStationComponent
+    GoalStationComponent,
+    SurveyDashboardComponent,
+    GoalDashboardComponent,
+    SurveySidenavComponent,
+    GoalSidenavComponent,
+    OrganizationsComponent,
+    GoalsComponent,
+    SurveysComponent,
+    SurveyReportsComponent,
+    GoalReportsComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
